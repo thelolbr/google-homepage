@@ -1,21 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
     <head>
+        <!--<link href="reset.css" type="text/css" rel="stylesheet"/>-->
         <link href="style.css" type="text/css" rel="stylesheet"/>
         <title>Replica Google's Homepage</title>
+        <meta charset="utf-8">
     </head>
     <body>
-        <div class="google_logo">
-            <img src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <div class="sub_logo">Brasil</div>
+        <div class="header">
+            <ul id="head_ul">
+                <li>
+                    <a class="url_li" href="#">Gmail</a>
+                </li>
+                <li>
+                    <a class="url_li" href="#">Imagens</a>
+                </li>
+                <li>
+                    <div id="prof_pic"></div>
+                </li>
+            </ul>
         </div>
-        <form>
-            <div>
-                <input type="text" name="question" id="procura">
-            </div>
-            <div>
-                <input type="submit" value="Procurar">
-            </div>
-        </form>
+        <div>
+            <img id="logo" src="./img/googlelogo.png">
+            <div class="logo_sub">Brasil</div>
+        </div>
+        <div class="search">
+            <form action="#" method="get">
+                <div>
+                    <input class="input" type="text" name="s_box">
+                </div>
+                <div>
+                    <img id="keyboard" src="./img/keyboard.png">
+                </div>
+            </form>
+        </div>
+        <div class="buttons">
+            <div id="search">Pesquisa Google</div>
+            <div id="lucky">Estou com sorte</div>
+        </div>
+        <div class="footer">
+            <ul class="l_foot_list">
+                <li>
+                    <a class="l_foot_links" href="#">Publicidade</a>
+                </li>
+                <li>
+                    <a class="l_foot_links" href="#">Negócios</a>
+                </li>
+                <li>
+                    <a class="l_foot_links" href="#">Sobre</a>
+                </li>
+            </ul>
+            <ul class="r_foot_list">
+                <li>
+                    <a class="r_foot_links" href="#">Privacidade</a>
+                </li>
+                <li>
+                    <a class="r_foot_links" href="#">Termos</a>
+                </li>
+                <li>
+                    <a class="r_foot_links" href="#">Configurações</a>
+                </li>
+            </ul>
+        </div>
     </body>
 </html>
